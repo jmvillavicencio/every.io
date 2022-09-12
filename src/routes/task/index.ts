@@ -74,7 +74,6 @@ const taskValidator = TaskValidator.getInstance();
 // Middlewares
 router.use(requiresAuth());
 
-// GET
 /**
  * @swagger
  * /task:
@@ -82,7 +81,7 @@ router.use(requiresAuth());
  *    summary: Returns a list of tasks
  *    tags: [Tasks]
  *    security:
-*      - OpenID: [admin]
+ *      - OpenID: [admin]
  *    responses:
  *      200:
  *        description: the list of tasks
