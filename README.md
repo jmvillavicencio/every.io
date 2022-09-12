@@ -2,7 +2,6 @@
 
 ## What am I using
 - NodeJs
-- MongoDB
 - Typescript
 - Express 
 - Docker
@@ -18,3 +17,5 @@
 ## How to run locally
 1. Install the dependencies by running `npm install`.
 2. Run `npm run dev`.
+3. Go to `http://localhost:3000/docs` in order to see the swagger documentation for the endpoints.
+4. Go to `http://localhost:3000/user/login` in order to login using the Auth0 login.
